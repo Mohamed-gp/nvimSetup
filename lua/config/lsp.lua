@@ -1,6 +1,6 @@
 -- 📌 Activer la colonne des signes pour afficher les erreurs LSP
 vim.opt.signcolumn = 'yes'
-
+-- 
 -- 📌 Ajouter cmp_nvim_lsp pour gérer les capacités des LSP
 local lspconfig_defaults = require('lspconfig').util.default_config
 lspconfig_defaults.capabilities = vim.tbl_deep_extend(
